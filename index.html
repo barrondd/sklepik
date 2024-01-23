@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>sklepik
+
+        <label for="imie">Imie: 
+            <input type="text" id="imie" placeholder="wpisz tu imie" >
+        </label>
+        <label for="nazwisko">Nazwisko: 
+            <input type="text" id="nazw" placeholder="wpisz tu nazwisko">
+        </label>
+        <label for="klasa">
+            <select name="klasa" id="kl">
+                    <option value="0">wybierz klasę</option>
+                    <option value="1">klasa 1</option>
+                    <option value="2">klasa 2</option>
+                    <option value="3">klasa 3</option>
+                    <option value="4">klasa 4</option>
+                    <option value="5">klasa 5</option>
+            </select>
+        </label>
+        <label for="zgoda">Wyrażam zgodę na przetwarzanie moich danych: 
+            <input type="checkbox" name="zgoda" id="zgd">
+        </label>
+        <label for="srednia">Średnia ocen: 
+            <input type="number" name="srednia" id="srd" step="0.01" min="1" max="6">
+        </label>
+        <label for="Jedzenie">
+            Kanapka(1.80 zł): 
+            <input type="checkbox" name="Kanapka" id="Knp" value="1.8">
+            Baton(1.70 zł): 
+            <input type="checkbox" name="Baton" id="snc" value="1.7">
+            Napój(4 zł): 
+            <input type="checkbox" name="Napoj" id="npj" value="4">
+        </label>
+        <button id="Btn1">Poszlo</button>
+        <p id="dis"></p>
+      </legend>
+     </fieldset>
+    </form>
+</body>
+</html>
